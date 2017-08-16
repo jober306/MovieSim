@@ -1,0 +1,725 @@
+﻿{
+  "100 Streets": [ "london england", "taxi", "rugby", "cab driver", "estranged wife", "actor", "life of crime", "chelsea", "rugby captain", "serious accident", "rugby star", "three stories", "eccentric actor", "multi-threaded story", "inspired by real stories" ],
+  "102 Dalmatians": [ "london england", "prison", "release from prison", "women's prison", "society for the prevention of cruelty to animals", "puppy", "pelz", "dog", "dalmatian" ],
+  "2 Guns": [ "undercover", "undercover agent", "based on comic book", "money", "fugitive", "bank robbery", "dea agent" ],
+  "20th Century Women": [ "1970s", "balcony", "feminism", "feminist", "punk music", "mother son relationship", "generation gap", "santa barbara california" ],
+  "A Bug's Life": [ "winter", "fight", "ant", "invention", "collector", "ant-hill", "kids and family", "grass", "duringcreditsstinger" ],
+  "A Cure for Wellness": [ "switzerland", "therapist", "health", "darkness", "wellness", "employee", "patient", "violence", "drug", "remote", "swiss alps", "treatment", "cure", "accident", "wellness center", "institute", "incertitude" ],
+  "A Face in the Crowd": [ "television", "arkansas", "fame", "personality" ],
+  "A Kind of Murder": [ "new york", "based on novel", "architect", "murder", "1960s" ],
+  "A Man Called Ove": [ "black humor", "dark comedy", "suicidal", "pregnant woman", "bitterness", "saab", "volvo" ],
+  "A Monster Calls": [ "based on novel", "monster", "dream", "grandmother grandson relationship", "artist", "nightmare", "tree", "boy", "truth", "terminal illness", "bullying", "bully", "disease", "death of mother", "grandmother", "imagination", "child", "animated sequences" ],
+  "A Street Cat Named Bob": [ "based on novel", "cat", "human animal relationship", "biography", "addiction", "drug addict", "recovering drug addict", "moral transformation", "street musician", "busker", "unlucky" ],
+  "Ace the Case: Manhattan Mystery": [ "new york", "detective", "kidnapping", "witness", "brother", "investigation", "dog", "home alone" ],
+  "Alice in Wonderland": [ "based on novel", "fictional place", "queen", "fantasy", "alice in wonderland", "fantasy world", "3d" ],
+  "All We Had": [ "based on novel", "mother daughter relationship", "poverty", "woman director" ],
+  "Allied": [ "spy", "world war ii", "nazis", "french", "love", "north africa", "1940s", "french woman" ],
+  "Almost Christmas": [ "thanksgiving", "family", "death", "christmas" ],
+  "Aloha": [ "love triangle", "hawaii", "satellite", "military", "duringcreditsstinger", "communication" ],
+  "Annabelle": [ "prequel", "evil doll", "killer doll", "spin off", "doll", "demonic possession", "killer toys", "toy comes to life" ],
+  "Argo": [ "cia", "wife husband relationship", "document", "revolution", "hiding place", "canadian", "press conference", "biography", "hanged man", "american abroad", "crane", "subtitled scene", "movie poster", "based on article", "extraction", "iran hostage crisis", "sweatshop", "intelligence agent", "film studio", "langley virginia", "1980s" ],
+  "Arrival": [ "spacecraft", "language", "loss", "romance", "alien", "female protagonist", "scientist", "family", "heartbreak", "based on short story", "nonlinear timeline", "military", "alien language", "linguist", "first contact", "communication", "linguistics" ],
+  "Assassin's Creed": [ "assassination", "spain", "assassin", "secret society", "brotherhood", "chase", "parkour", "memory", "based on video game", "corporate conspiracy", "genetic memory" ],
+  "August: Osage County": [ "suicide", "drug addiction", "funeral", "dysfunctional family", "based on play", "midwest", "southern", "bleak comedy", "mental disorders" ],
+  "Backtrack": [ ],
+  "Bad Santa 2": [ "holiday", "elves", "santa claus", "villain", "shopping mall", "masturbation", "pervert", "mall santa", "christmas", "anti christmas", "mad woman" ],
+  "Ballerina": [ "paris", "flying", "inventor", "dance", "opera", "musical", "life's dream", "ballet", "orphan", "statue of liberty", "kids", "eiffel tower paris", "19th century" ],
+  "Battleship": [ "fight", "u.s. navy", "mind reading", "hong kong", "soccer", "scientist", "fictional war", "naval", "armada", "battleship", "naval combat", "jds myoko", "lost communication", "taser", "buoy", "communications expert", "joint chiefs of staff", "crash landing", "jet fighter pilot", "navy lieutenant", "permission to marry", "uss john paul jones", "based on board game", "aftercreditsstinger", "mighty mo", "uss missouri" ],
+  "Beauty and the Beast": [ "france", "magic", "castle", "fairy tale", "musical", "curse", "anthropomorphism", "creature", "held captive", "gothic", "18th century", "beast", "3d" ],
+  "Beauty and the Beast (1991)": [ "prince", "book", "castle", "rose", "musical", "princess", "animation", "based on tv series", "beast", "belle" ],
+  "Bedknobs and Broomsticks": [ "flying", "witch", "world war ii", "broom" ],
+  "Benny & Joon": [ "brother sister relationship", "autism", "car garage" ],
+  "Best in Show": [ "illinois", "pet shop", "poodle", "independent film", "mockumentary", "terrier", "kimono" ],
+  "Blair Witch": [ "river", "camping", "tent", "rain", "tree", "night", "flashlight", "infection", "maryland", "forest", "supernatural", "sequel", "woods", "handheld camera", "drone", "dark", "campfire", "found footage", "tree climbing", "mumblegore", "lost in the woods", "blair witch", "sticks" ],
+  "Bleed for This": [ "underdog", "boxer", "comeback", "biography", "rhode island", "sport", "fighter", "come back" ],
+  "Blue Jasmine": [ "san francisco", "sister sister relationship", "new york city", "rich", "narcissism", "xanax" ],
+  "Bolt": [ "hamster", "kids and family", "animal", "cat vs dog", "duringcreditsstinger", "dog cat friendship", "animal lead", "girl dog relationship" ],
+  "Brave": [ "scotland", "rebel", "bravery", "kingdom", "archer", "wish", "bear", "scot", "rebellious daughter", "turns into animal", "archery", "ruins", "aftercreditsstinger", "peace offering", "woman director", "courage", "3d" ],
+  "Brazil": [ "bureaucracy", "police state", "terror", "great britain", "dream", "dystopia", "government" ],
+  "Breaking the Bank": [ ],
+  "Bridget Jones Diary": [ "holiday", "london england", "england", "alcohol", "sex", "lovesickness", "telecaster", "birthday", "christmas party", "news broadcast", "sexual frustration", "diary", "cigarette", "daughter", "mother daughter relationship", "lawyer", "reporter", "extramarital affair", "duringcreditsstinger", "woman director", "christmas" ],
+  "Bridget Jones's Baby": [ "love triangle", "baby", "sequel", "pregnancy", "unknown father", "pregnant woman", "childbirth", "sitting on a toilet", "woman director", "ultrasound" ],
+  "Bridget Jones: The Edge of Reason": [ "london england", "lovesickness", "thailand", "clumsy fellow", "to drop brick", "capture", "woman director" ],
+  "Brooklyn": [ "love triangle", "based on novel", "homesickness", "vororte", "ship", "community", "marriage", "working class", "boarding house", "ireland", "brooklyn new york city", "journey", "dual life", "irish immigrant", "1950s" ],
+  "Burn Country": [ "corruption", "journalist", "local newspaper", "northern california" ],
+  "Capote": [ "gay", "self-fulfilling prophecy", "based on novel", "journalism", "identity", "dream", "literature research", "literature", "dying and death", "biography" ],
+  "Captain America: Civil War": [ "civil war", "war", "marvel comic", "sequel", "superhero", "based on comic book", "imax", "aftercreditsstinger", "duringcreditsstinger", "marvel cinematic universe", "3d" ],
+  "Captain America: The First Avenger": [ "new york", "usa", "world war ii", "nazis", "marvel comic", "superhero", "based on comic book", "nazi germany", "period drama", "brooklyn new york city", "captain america", "aftercreditsstinger", "marvel cinematic universe", "3d" ],
+  "Captain America: The Winter Soldier": [ "washington d.c.", "future", "shield", "marvel comic", "superhero", "based on comic book", "captain america", "aftercreditsstinger", "duringcreditsstinger", "marvel cinematic universe", "3d", "political thriller" ],
+  "Cardboard Boxer": [ ],
+  "Cars": [ "car race", "car journey", "village and town", "auto", "route 66", "wrecker", "porsche", "retirement", "media", "friendship", "sport", "anthropomorphism", "los angeles", "road movie", "aftercreditsstinger", "duringcreditsstinger" ],
+  "Casablanca": [ "love triangle", "corruption", "spy", "resistance", "casablanca", "emigration", "visa", "patriotism", "nationalism", "concentration camp", "nazis", "war", "melodrama", "film noir" ],
+  "Certain Women": [ "loneliness", "rural setting", "lesbian interest", "flirting", "woman lawyer", "woman director", "dysfunctional relationship", "affair" ],
+  "Chicken Little": [ "fish", "small town", "space marine", "chicken", "alien", "best friend", "alien invasion", "animal", "duringcreditsstinger", "3d" ],
+  "Cirque du Soleil: Worlds Away": [ "clown", "music", "mimes", "cirque du soleil", "carnies", "aerialist" ],
+  "Cloudy with a Chance of Meatballs 2": [ "inventor", "food", "scientist" ],
+  "Collateral Beauty": [ "despair", "loss", "grief", "death", "ensemble cast", "grieving father", "anguish" ],
+  "Come and Find Me": [ ],
+  "Coming Through The Rye": [ "coming of age" ],
+  "Confessions of a Dangerous Mind": [ "microfilm", "biography", "silencer", "intrigue" ],
+  "Crazy Beautiful You": [ "philippines", "woman director", "pinoy" ],
+  "Dancer": [ ],
+  "Dear Frankie": [ "scotland", "father son relationship", "single parent", "loss of father", "violent father", "letter", "ship", "father", "little boy", "independent film", "deaf", "woman director" ],
+  "Deepwater Horizon": [ "post traumatic stress  disorder", "based on true story", "rescue", "disaster", "explosion", "oil spill", "trapped", "oil rig ", "gulf of mexico", "disaster movie", "bp" ],
+  "Despicable Me 2": [ "secret agent", "bakery", "falling in love", "father daughter relationship", "duringcreditsstinger", "first date", "minions", "3d" ],
+  "Django Unchained": [ "bounty hunter", "hero", "plantation", "society", "friendship", "friends", "revenge", "rivalry", "rescue", "shootout", "racism", "danger", "dentist", "django", "dual role", "aftercreditsstinger", "odd couple", "black slave", "deadly", "chases and races", "19th century" ],
+  "Doctor Strange": [ "magic", "marvel comic", "superhero", "based on comic book", "sorcerer", "doctor", "neurosurgeon", "wizard", "aftercreditsstinger", "duringcreditsstinger", "marvel cinematic universe" ],
+  "Dolphin Tale 2": [ "dolphin", "aquarium", "swimming" ],
+  "Dumbo": [ "circus", "mother", "dream", "mouse", "elephant", "nightmare", "suffering", "clown", "ear", "musical", "crow", "affection", "storch", "animation", "big ears" ],
+  "Edge of Tomorrow": [ "deja vu", "time warp", "restart", "dystopia", "war", "alien", "military officer", "soldier", "alien invasion", "exoskeleton" ],
+  "Eight Below": [ "expedition", "pilot", "survival", "sled dogs", "seal" ],
+  "Elysium": [ "dystopia", "space station", "class conflict" ],
+  "Enchanted": [ "poison", "queen", "fairy tale", "musical", "princess", "portal", "animation", "fantasy world", "evil witch", "part animation" ],
+  "Epic": [ "fantasy", "miniature people" ],
+  "Fallen": [ "based on novel", "fallen angel", "teenager", "reform school", "based on young adult novel" ],
+  "Fantastic Beasts and Where to Find Them": [ "robbery", "magic", "teleportation", "suitcase", "new york city", "subway station", "central park", "wizard", "goblin", "magical creature" ],
+  "Fences": [ "father", "based on play", "racism", "african american", "pittsburgh", "1950s", "struggle" ],
+  "Fifty Shades Darker": [ "sex", "based on novel", "boat", "nudity", "present", "kiss", "sequel", "bdsm", "adaptation", "erotic movie", "oral sex" ],
+  "Finding Altamira": [ "spain", "cave", "history", "discovery", "altamira" ],
+  "Finding Nemo": [ "father son relationship", "harbor", "underwater", "fish tank", "great barrier reef", "missing child", "aftercreditsstinger", "duringcreditsstinger", "short term memory loss", "clownfish", "father son reunion", "protective father" ],
+  "Fist Fight": [ "high school", "high school teacher" ],
+  "Frankenweenie": [ "shyness", "stop motion", "black and white", "retro", "dog", "animal death", "animal lover" ],
+  "From Nowhere": [ ],
+  "Frozen": [ "queen", "musical", "princess", "betrayal", "snowman", "animation", "reindeer", "curse", "snow", "troll", "mountain climber", "aftercreditsstinger", "woman director", "3d" ],
+  "G.I. Joe: Retaliation": [ "terror", "assassin", "secret", "technology", "missile", "warhead", "president", "rescue", "conspiracy", "explosion", "battle", "surveillance", "cobra" ],
+  "George of the Jungle": [ "africa", "san francisco", "gorilla", "lion", "feral child", "jungle" ],
+  "Get Out": [ "externally controlled action", "parents-in-law", "satire", "dark comedy", "interracial relationship", "disappearance", "racism", "african american", "stereotype", "police harassment", "missing", "race-conscious" ],
+  "Girl Asleep": [ "1970s", "birthday", "birthday party", "coming of age", "best friend", "girl", "womanhood", "woman director" ],
+  "Godzilla": [ "monster", "godzilla", "remake", "giant monster", "gojira", "kaiju", "global threat", "animal horror" ],
+  "Gold": [ "gold", "fraud", "wall street", "mining", "rise and fall", "indonesia", "alcoholism", "money", "gold mine", "1990s", "inspired by a true story", "ugly american" ],
+  "Golden Years": [ "sexual identity", "travestie", "world war i" ],
+  "Good Will Hunting": [ "baseball", "boston", "professor", "m.i.t.", "harvard university", "ambition", "mathematics", "genius", "love", "friends", "janitor", "irish", "psychologist", "university", "courtroom", "flashback", "prodigy" ],
+  "Gravity": [ "space mission", "loss", "space", "astronaut", "trapped in space" ],
+  "Growing Up Smith": [ ],
+
+      "Guardians of the Galaxy"
+      :
+      [ "marvel comic", "spaceship", "space", "outer space", "orphan", "adventurer", "aftercreditsstinger", "duringcreditsstinger", "marvel cinematic universe" ],
+      "Guardians of the Galaxy Vol. 2"
+      :
+      [ "sequel", "superhero", "based on comic book", "misfit", "space", "outer space", "aftercreditsstinger", "duringcreditsstinger" ],
+      "Hackers"
+      :
+      [ "female nudity", "hacker", "nudity", "computer virus", "virtual reality", "computer", "sexual fantasy", "prank", "internet", "cyberpunk", "teenager", "new york city", "secret service", "computer hacker", "dream sequence" ],
+      "Hacksaw Ridge"
+      :
+      [ "japan", "world war ii", "violent father", "pacifism", "bible", "biography", "war", "conscientious objector", "based on true story", "gore", "religion", "soldier", "religious", "alcoholic", "war hero", "medic", "u.s. military", "based on true events", "historical drama", "1940s" ],
+      "Half Girlfriend"
+      :
+      [ "based on novel", "sport", "basketball", "love" ],
+      "Hands of Stone"
+      :
+      [ ],
+      "Harry and Snowman"
+      :
+      [ "horse" ],
+      "Harry Potter and the Chamber of Secrets"
+      :
+      [ "flying car", "witch", "magic", "cutting the cord", "child hero", "broom", "sorcerer's apprentice", "school of witchcraft", "giant snake", "black magic", "aftercreditsstinger" ],
+      "Harry Potter and the Deathly Hallows Part 1"
+      :
+      [ "corruption", "isolation", "radio", "magic", "teleportation", "bravery", "tension", "attack", "werewolf" ],
+      "Harry Potter and the Deathly Hallows Part 2"
+      :
+      [ "self sacrifice", "magic", "frog", "sorcerer", "school", "wizard", "3d" ],
+      "Harry Potter and the Goblet of Fire"
+      :
+      [ "magic", "dying and death", "broom", "sorcerer's apprentice", "school of witchcraft", "chosen one", "black magic", "boarding school", "vision", "tournament", "teenager", "wizard", "teenage hero", "based on young adult novel" ],
+      "Harry Potter and the Half Blood Prince"
+      :
+      [ "witch", "magic", "broom", "school of witchcraft", "wizardry", "apparition", "teenage crush", "werewolf" ],
+      "Harry Potter and the Order of the Phoenix"
+      :
+      [ "prophecy", "witch", "loss of lover", "magic", "cutting the cord", "child hero", "dying and death", "broom", "sorcerer's apprentice", "school of witchcraft", "black magic", "death of a friend", "sorcery", "occultism" ],
+      "Harry Potter and the Prisoner of Azkaban"
+      :
+      [ "flying", "traitor", "magic", "cutting the cord", "child hero", "broom", "sorcerer's apprentice", "school of witchcraft", "griffon", "black magic", "time travel", "best friend", "werewolf", "dark", "muggle", "aftercreditsstinger" ],
+      "Harry Potter and the Sorcerer's Stone"
+      :
+      [ "witch", "christmas party", "magic", "cutting the cord", "halloween", "child hero", "broom", "chosen one", "frog", "fantasy world", "based on young adult novel" ],
+      "Hell or High Water"
+      :
+      [ "desperation", "texas", "bank robber", "brother", "shooting", "car set on fire", "gun battle", "police officer killed", "criminal", "held at gunpoint", "police car", "small western town", "saying goodbye", "bullet hole in windscreen" ],
+      "Hidden Figures"
+      :
+      [ "nasa", "sexism", "biography", "mathematics", "racial segregation", "racism", "scientist", "space race", "black woman", "u.s. space program", "discrimination", "1960s" ],
+      "Homeward Bound: The Incredible Journey"
+      :
+      [ "based on novel", "cat", "friendship", "remake", "dog", "journey" ],
+      "Honey, I Shrunk the Kids"
+      :
+      [ "inventor", "ant", "shrinking", "riesen insekten", "biene", "neighbor" ],
+      "Hoosiers"
+      :
+      [ "father son relationship", "indiana", "son", "sport", "basketball", "high school sports" ],
+      "Hostile Border"
+      :
+      [ ],
+      "Hyena Road"
+      :
+      [ ],
+      "I, Daniel Blake"
+      :
+      [ "heart attack", "single mother", "compassion", "carpenter", "social services", "welfare", "arrested", "social security", "healthcare", "desperate" ],
+      "Ice Girls"
+      :
+      [ "sport", "skating", "single mother", "sport competition", "parents and children", "contests and competitions", "ice dancing" ],
+      "If I Stay"
+      :
+      [ "coma", "musician", "teenage girl", "car accident", "teenager", "out of body experience", "teen drama", "based on young adult novel" ],
+      "In the Heat of the Night"
+      :
+      [ "southern usa", "black people", "small town", "police chief", "suspect", "racist", "african american", "false accusations", "police station", "racial tension" ],
+      "Inferno"
+      :
+      [ "italy", "based on novel", "europe", "amnesia", "book", "sequel", "murder", "religion", "symbology" ],
+      "Inside Out"
+      :
+      [ "dream", "cartoon", "imaginary friend", "animation", "family", "moving", "kids", "unicorn", "duringcreditsstinger", "3d", "emotions" ],
+      "Into the Storm"
+      :
+      [ "tornado", "student", "found footage", "disaster movie" ],
+      "Iron Man"
+      :
+      [ "middle east", "arms dealer", "malibu", "marvel comic", "superhero", "based on comic book", "tony stark", "iron man", "aftercreditsstinger", "marvel cinematic universe", "counter terrorism", "agent coulson" ],
+      "Iron Man 2"
+      :
+      [ "malibu", "marvel comic", "superhero", "based on comic book", "revenge", "aftercreditsstinger", "marvel cinematic universe" ],
+      "Iron Man 3"
+      :
+      [ "terrorist", "war on terror", "tennessee", "malibu", "marvel comic", "superhero", "based on comic book", "tony stark", "iron man", "aftercreditsstinger", "marvel cinematic universe", "mandarin", "3d", "war machine", "iron patriot", "extremis" ],
+      "It Had to Be You"
+      :
+      [ ],
+      "Jack Reacher"
+      :
+      [ "based on novel", "sniper", "investigation", "police", "quarry" ],
+      "Jack Reacher: Never Go Back"
+      :
+      [ "based on novel", "homicide", "sequel", "false accusations", "false accusation of murder" ],
+      "Jackie"
+      :
+      [ "assassination", "usa president", "widow", "john f. kennedy", "biography", "dallas", "president", "first lady", "jackie kennedy", "kennedy assassination", "american history", "motorcade", "jfk" ],
+      "Jasper Jones"
+      :
+      [ ],
+      "Jersey Boys"
+      :
+      [ "biography", "based on play" ],
+      "John Wick: Chapter 2"
+      :
+      [ "italy", "gun", "roof", "party", "sequel", "handshake" ],
+      "Keeping Up with the Joneses"
+      :
+      [ "suburb" ],
+      "Kill'em All"
+      :
+      [ "nurse", "fbi", "revenge", "shootout", "hospital", "mysterious stranger", "international intrigue", "foreign gang" ],
+      "La La Land"
+      :
+      [ "jazz", "dance", "passion", "musical", "casting", "los angeles", "pianist", "theater", "movie set", "actress" ],
+      "Land of Mine"
+      :
+      [ "sudden death", "natural wonder", "boy soldier", "meager rations" ],
+      "Lawless"
+      :
+      [ "based on novel", "prohibition", "brother", "bootlegging", "1930s" ],
+      "Les Miserables"
+      :
+      [ "france", "robbery", "brothel", "mayor", "star", "musical", "arrest", "army", "rebellion", "wedding", "falling in love", "corpse", "parole", "convict", "girl disguised as boy" ],
+      "Life of PI"
+      :
+      [ "ocean", "shipwreck", "hindu", "tiger", "faith", "zookeeper", "teenage boy", "cargo ship", "lifeboat", "injured animal" ],
+      "Life, Animated"
+      :
+      [ ],
+      "Lilo & Stitch"
+      :
+      [ "sister sister relationship", "extraterrestrial technology", "hawaii", "adoption", "mutation", "alien life-form", "alien phenomenons", "animation", "dog", "dead parents" ],
+      "Lion"
+      :
+      [ "based on novel", "indian lead", "adoption", "australia", "based on true story", "india", "missing child", "long lost relative", "tasmania", "passenger train", "street child" ],
+      "Lions for Lambs"
+      :
+      [ "journalist", "terrorist", "war against terror", "externally controlled action", "manipulation", "propaganda", "manipulation of the media", "future", "afghanistan", "political negotiations", "war", "past", "war in afghanistan" ],
+      "Live by Night"
+      :
+      [ "based on novel", "prohibition", "florida", "love", "revenge", "betrayal", "organized crime", "1920s", "1930s" ],
+      "Logan"
+      :
+      [ "cyborg", "experiment", "self-destruction", "mutant", "future", "dystopia", "immortality", "marvel comic", "sequel", "superhero", "based on comic book", "scientific experiment", "super powers", "neo-western", "troubled past", "life on the margin" ],
+      "Lost in Florence"
+      :
+      [ "italy", "soccer" ],
+      "Love and Death"
+      :
+      [ "napoleon", "execution", "anarchic comedy" ],
+      "Loving"
+      :
+      [ "biography", "marriage", "court", "supreme court", "interracial marriage", "virginia", "interracial couple", "civils rights" ],
+      "Madagascar 3: Europe's Most Wanted"
+      :
+      [ "madagascar", "3d" ],
+      "Man of Steel"
+      :
+      [ "saving the world", "dc comics", "superhero", "based on comic book", "superhuman", "alien invasion", "reboot", "super powers", "dc extended universe" ],
+      "Manchester by the Sea"
+      :
+      [ "sadness", "boston", "massachusetts", "funeral", "loss", "grief", "dysfunctional family", "hospital", "death", "nephew", "mental health", "family tragedy", "legal guardian", "dysfunctional life" ],
+      "Manhattan"
+      :
+      [ "new york", "adultery", "based on novel", "lolita", "love", "romance", "independent film", "mistress", "writer", "relationship", "city", "divorce", "manhattan, new york city", "married" ],
+      "Mary Poppins"
+      :
+      [ "london england", "dancing", "parents kids relationship", "bank", "brother sister relationship", "famous score", "confidence", "nanny", "laughing", "magic", "chimney sweeper", "musical", "live action and animation" ],
+      "Max Steel"
+      :
+      [ "superhero" ],
+      "Miss Peregrine's Home for Peculiar Children"
+      :
+      [ "time travel", "orphan", "superpower" ],
+      "Miss Sloane"
+      :
+      [ "gun", "senator", "political", "ethics", "lobbyist", "gun control" ],
+      "Miss You Already"
+      :
+      [ "female friendship", "music", "friendship", "love", "cancer", "best friend", "pregnancy", "relationship", "family", "woman director" ],
+      "Moana"
+      :
+      [ "ocean", "sailboat", "mythology", "island", "musical", "animation", "curse", "young girl", "sailor", "aftercreditsstinger", "demigod", "polynesia", "voyage", "pacific  ocean", "quest", "maui", "animal sidekick" ],
+      "Moby Dick"
+      :
+      [ "based on novel", "captain", "boat", "obsession", "shipwreck", "stroke of fate", "whale", "walrus", "revenge" ],
+      "Monster Trucks"
+      :
+      [ "monster", "secret", "small town", "teenager", "pickup truck", "live action and animation", "monster trucks" ],
+      "Monsters University"
+      :
+      [ "monster", "dormitory", "games", "animation", "best friend", "university", "scary", "aftercreditsstinger" ],
+      "Monsters, Inc."
+      :
+      [ "monster", "infant", "energy supply", "company", "rivalry", "hijinks", "best friend", "scream", "conveyor belt", "energy company", "friend" ],
+      "Moonlight"
+      :
+      [ ],
+      "Moonstruck"
+      :
+      [ "new york", "love letter", "lover", "full moon" ],
+      "Mr. Church"
+      :
+      [ "cook", "friendship" ],
+      "Mum's List"
+      :
+      [ "mother", "wife", "drama", "breast cancer", "based on true story", "cancer", "dying wish", "family", "death", "tearjerker", "husband", "list", "terminal cancer", "dying wife" ],
+      "Muppets Most Wanted"
+      :
+      [ "musical", "the muppets" ],
+      "Mystic Pizza"
+      :
+      [ "independent film", "commitment", "lobster", "portuguese american" ],
+      "Now You See Me 2"
+      :
+      [ "london england", "china", "magic", "secret society", "vigilante", "sequel", "revenge", "heist", "on the run", "macau china", "magician" ],
+      "Ocean's Eleven"
+      :
+      [ "prison", "pickpocket", "strip club", "con artist", "atlantic city", "cockney accent", "las vegas", "card dealer", "explosives expert", "black and white scene", "male", "salt lake city utah" ],
+      "Ocean's Thirteen"
+      :
+      [ "casino", "thief", "revenge", "heist", "las vegas", "pretending to be rich", "labor strike" ],
+      "Ocean's Twelve"
+      :
+      [ "sequel", "fabergé egg", "dutch eastindian company", "second", "part", "golden egg", "goon" ],
+      "Of Mice and Men"
+      :
+      [ "dream", "worker", "country life", "farm worker", "farm", "error", "great depression" ],
+      "Office Christmas Party"
+      :
+      [ "holiday", "dancing", "alcohol", "office", "christmas party", "party", "new york city", "wild party" ],
+      "Ordinary World"
+      :
+      [ ],
+      "Pacific Rim"
+      :
+      [ "dystopia", "giant robot", "giant monster", "apocalypse", "imax", "duringcreditsstinger", "3d" ],
+      "ParaNorman"
+      :
+      [ "medium", "stop motion", "curse", "jock", "ghosts", "communicating with the dead", "aftercreditsstinger", "dealing with the past", "witch trial", "child witch", "empathy", "strange" ],
+      "Passengers"
+      :
+      [ "male nudity", "android", "asteroid", "isolation", "shower", "nudity", "automation", "hibernation", "swimming pool", "spaceship", "space", "outer space", "robot", "space station", "lying", "gravity", "trapped in space", "malfunction", "3d" ],
+      "Patriots Day"
+      :
+      [ "boston", "massachusetts", "police chief", "terrorism", "manhunt", "boston marathon" ],
+      "Personal Shopper"
+      :
+      [ "paris", "female nudity", "nudity", "medium", "poltergeist", "apparition", "spirit", "text message", "shopping", "dress shop", "dead brother", "personal shopper", "contacting spirits", "clothes shopping" ],
+      "Pete's Dragon"
+      :
+      [ "farm", "friendship", "part live action", "escape", "dragon", "part animation" ],
+      "Pirates of the Caribbean: At World's End"
+      :
+      [ "ocean", "drug abuse", "exotic island", "east india trading company", "love of one's life", "traitor", "shipwreck", "strong woman", "ship", "alliance", "calypso", "afterlife", "fighter", "pirate", "swashbuckler", "aftercreditsstinger" ],
+      "Pirates of the Caribbean: Dead Man's Chest"
+      :
+      [ "witch", "fortune teller", "bondage", "exotic island", "monster", "captain", "card game", "east india trading company", "compass", "ship", "daughter", "pirate", "swashbuckler", "aftercreditsstinger" ],
+      "Pirates of the Caribbean: Dead Men Tell No Tales"
+      :
+      [ "sea", "ship", "sequel", "artifact", "pirate", "period drama", "swashbuckler", "ghosts", "caribbean" ],
+      "Pirates of the Caribbean: On Stranger Tides"
+      :
+      [ "sea", "captain", "mutiny", "sword", "prime minister", "sailing", "silver", "ship", "duke", "mermaid", "pirate", "soldier", "battle", "swashbuckler", "aftercreditsstinger", "3d" ],
+      "Pirates of the Caribbean: The Curse of the Black Pearl"
+      :
+      [ "exotic island", "blacksmith", "east india trading company", "gold", "marriage proposal", "mutiny", "jamaica", "skeleton", "daughter", "governor", "wooden eye", "gold coin", "pirate", "alcoholic", "swashbuckler", "caribbean", "aftercreditsstinger", "pirate ship", "capuchin monkey", "tortuga" ],
+      "Pitch Perfect 2"
+      :
+      [ "music", "sequel", "singer", "male female relationship", "audition", "group of friends", "duringcreditsstinger", "singing competition", "female musician", "singing contest", "woman director", "acapella" ],
+      "Planes"
+      :
+      [ "crop duster", "fighter jet", "anthropomorphism" ],
+      "Pocahontas"
+      :
+      [ "culture clash", "settler", "colony", "musical", "gold rush", "princess", "romance", "native american", "animation", "virginia", "star crossed lovers", "reference to pizarro", "jamestown virginia", "pug dog", "cross cultural relationship", "musket", "animate tree", "indian chief", "based on folk tale", "forbidden romance", "17th century", "shamanism", "songs", "indians vs. settlers", "animal sidekick", "powhatan", "land claim" ],
+      "Point Break"
+      :
+      [ "undercover", "undercover agent", "extreme sports", "fbi agent", "3d" ],
+      "Pompeii"
+      :
+      [ "gladiator", "arena", "gladiator fight", "lava", "roman", "forbidden love", "natural disaster", "epic", "disaster", "slave", "town in panic", "vulcan", "volcanic eruption", "pompeii", "3d" ],
+      "R.I.P.D."
+      :
+      [ "gold", "police operation", "partner", "revenge", "undead", "ghosts", "police department" ],
+      "Ratatouille"
+      :
+      [ "paris", "brother brother relationship", "expensive restaurant", "river", "cook", "mouse", "confidence", "roof", "window", "leaving one's family", "work", "restaurant critic", "kitchen", "spice", "court", "cookbook", "family", "chef", "rat" ],
+      "Resident Evil: The Final Chapter"
+      :
+      [ "helicopter", "monster", "underground", "mutant", "post-apocalyptic", "dystopia", "sequel", "end of the world", "female soldier", "woman with gun", "resident evil", "zombies", "armageddon", "pistol", "based on video game", "heroine", "sci-fi thriller" ],
+      "Rio 2"
+      :
+      [ "bird", "sequel", "jungle", "audition", "amazon rainforest", "parrots" ],
+      "Robocop"
+      :
+      [ "cyborg", "future", "dystopia", "police", "remake", "violence", "detroit" ],
+      "Rock Dog"
+      :
+      [ "guitar", "naivety", "musician", "rock", "village", "animation", "anthropomorphism", "dog", "mastiff" ],
+      "Rogue One: A Star Wars Story"
+      :
+      [ "rebel", "space battle", "space travel", "war", "prequel", "spaceship", "space", "alien", "death star", "jedi", "rebellion", "female protagonist", "space western", "gunfight", "suicide mission", "robot", "spin off", "laser gun", "space opera", "alien language", "against the odds", "blind man" ],
+      "Rules Dont Apply"
+      :
+      [ "eccentric", "billionaire", "driver", "actress", "howard hughes", "christian woman" ],
+      "Rush"
+      :
+      [ "world champion", "sport", "racing car", "formula 1", "automobile racing", "based on true events" ],
+      "Safe House"
+      :
+      [ "cia", "violence", "safe house", "rogue agent", "cape town south africa", "soccer stadium" ],
+      "Savages"
+      :
+      [ "widow", "american abroad", "eye gouging", "dea agent", "shot in the shoulder", "gun in mouth", "filmed killing", "southern california", "improvised explosive device", "surrogate daughter", "shot in the throat", "laguna beach california", "enforcer", "gardner", "skull mask", "dea" ],
+      "Seeking a Friend for the End of the World"
+      :
+      [ "asteroid", "road trip", "end of the world", "woman director" ],
+      "Silence"
+      :
+      [ "christianity", "japan", "missionary", "based on novel", "betrayal", "torture", "martyrdom", "crisis of faith", "portuguese", "17th century", "shogunate", "jesuit priest", "religious persecution", "religious icon", "apostasy" ],
+      "Sing"
+      :
+      [ "cgi", "furry", "talking animal", "anthropomorphism", "singing", "theater", "singing competition" ],
+      "Singin' in the Rain"
+      :
+      [ "fan", "morning", "musical", "talkie", "partner", "movie in movie", "broadway", "audience", "chorus girl", "diction coach", "pearl necklace", "flapper" ],
+      "Skyfall"
+      :
+      [ "spy", "secret agent", "sociopath", "killer", "art gallery", "british secret service", "istanbul turkey", "imax", "uzi", "booby trap", "impersonating a police officer", "macao" ],
+      "Sleepless"
+      :
+      [ "robbery", "kidnapping", "organized crime", "undercover cop", "mobster", "gangster", "las vegas", "corrupt cop" ],
+      "Smurfs: The Lost Village"
+      :
+      [ "sequel", "kids" ],
+      "Snow White and the Huntsman"
+      :
+      [ "queen", "magic", "fairy tale", "immortality", "forest", "deception", "woman", "eternal youth", "snow white", "evil queen", "evil stepmother", "imprisoned", "sorceress" ],
+      "Snowden"
+      :
+      [ "national security agency (nsa)", "biography", "surveillance", "whistleblower", "political thriller" ],
+      "Some Like It Hot"
+      :
+      [ "chicago", "witness", "musician", "mafia", "cross dressing", "band", "spats", "all girl band", "st. valentine's day massacre", "sugar", "valentine's day", "dressing" ],
+      "Split"
+      :
+      [ "child abuse", "kidnapping", "gore", "stalking", "teenage girl", "blood", "violence", "mental illness", "super powers", "multiple personality", "traumatic childhood", "dissociative identity disorder" ],
+      "Star Trek Into Darkness"
+      :
+      [ "spacecraft", "friendship", "sequel", "futuristic", "space", "alien", "imax", "space opera", "terrorist bombing", "3d" ],
+      "Storks"
+      :
+      [ "baby", "stork", "3d" ],
+      "Sugar Mountain"
+      :
+      [ "alaska" ],
+      "Table 19"
+      :
+      [ "misfit", "wedding reception", "wedding", "rebound", "dumped by boyfriend", "wedding guest" ],
+      "Tammy"
+      :
+      [ ],
+      "Tangled"
+      :
+      [ "hostage", "magic", "horse", "fairy tale", "musical", "princess", "animation", "tower", "blonde woman", "selfishness", "healing power", "based on fairy tale", "duringcreditsstinger", "healing gift", "animal sidekick" ],
+      "Tarzan"
+      :
+      [ "gorilla", "baby", "adoption", "feral child", "nest", "animation", "jungle", "camp", "orphan" ],
+      "Ted"
+      :
+      [ "friendship", "love", "teddy bear", "toy comes to life", "wishes come true" ],
+      "The Accountant"
+      :
+      [ "autism", "criminal", "accountant" ],
+      "The Amazing Spider-Man 2"
+      :
+      [ "obsession", "marvel comic", "sequel", "based on comic book", "electrocution", "medical experiment", "electricity", "super powers" ],
+      "The Aristocats"
+      :
+      [ "paris", "cat", "butler", "return", "suspension", "music", "inheritance" ],
+      "The Avengers"
+      :
+      [ "new york", "shield", "marvel comic", "superhero", "based on comic book", "alien invasion", "superhero team", "aftercreditsstinger", "duringcreditsstinger", "marvel cinematic universe" ],
+      "The Beatles: Eight Days a Week - The Touring Years"
+      :
+      [ "music", "documentary" ],
+      "The Birth of a Nation"
+      :
+      [ "slavery" ],
+      "The Blackcoat's Daughter"
+      :
+      [ "winter", "exorcism", "boarding school", "possession", "murder", "loneliness", "decapitation", "furnace", "all girls school", "good samaritan" ],
+      "The Boat Builder"
+      :
+      [ ],
+      "The Campaign"
+      :
+      [ "politics", "politician", "election campaign", " north carolinam", "congressman", "political candidate", "moustache", "political corruption", "campaign manager", "campaign finance" ],
+      "The Carer"
+      :
+      [ ],
+      "The Comedian"
+      :
+      [ "comedian", "aging", "insult", "comic" ],
+      "The Conjuring"
+      :
+      [ "sister sister relationship", "exorcism", "rhode island", "based on true story", "farmhouse", "paranormal investigation", "ghosts", "supernatural power", "paranormal investigator", "annabelle" ],
+      "The Dark Knight Rises"
+      :
+      [ "dc comics", "crime fighter", "terrorist", "secret identity", "burglar", "hostage drama", "time bomb", "gotham city", "vigilante", "cover-up", "superhero", "villainess", "tragic hero", "terrorism", "destruction", "catwoman", "cat burglar", "imax", "flood", "criminal underworld", "batman" ],
+      "The Edge of Seventeen"
+      :
+      [ "friendship", "high school", "loneliness", "teen angst", "coming of age", "teenage girl", "best friend", "dating", "teenager", "woman director" ],
+      "The Emperor's New Groove"
+      :
+      [ "central and south america", "birthday", "emperor", "palace", "kingdom", "berater", "llama" ],
+      "The Founder"
+      :
+      [ "ambition", "biography", "salesman", "singing", "fast food", "1950s", "america", "franquicia" ],
+      "The Fox and the Hound"
+      :
+      [ "based on novel", "fox", "friendship", "dog", "animal", "hunting", "unlikely friendship" ],
+      "The Girl on the Train"
+      :
+      [ "based on novel", "infidelity", "alcoholism", "memory loss", "train", "divorcee", "missing person", "police investigation", "ex-husband ex-wife relationship" ],
+      "The Good Dinosaur"
+      :
+      [ "tyrannosaurus rex", "friends", "alternate history", "dinosaur", "fear", "storm", "nature", "human", "journey" ],
+      "The Good Lie"
+      :
+      [ "refugee", "kansas", "sudanese" ],
+      "The Great Wall"
+      :
+      [ "china", "monster", "archer", "female soldier", "explosion", "period drama", "british soldier", "great wall of china", "3d", "15th century", "female general" ],
+      "The Hangover Part III"
+      :
+      [ "sequel", "hangover" ],
+      "The History of Love"
+      :
+      [ ],
+      "The Hobbit: An Unexpected Journey"
+      :
+      [ "riddle", "elves", "dwarves", "orcs", "middle-earth (tolkien)", "hobbit", "mountains", "wizard", "journey", "ring", "goblin", "courage", "giant", "tunnel", "underground lake", "buried treasure", "climbing a tree", "invisibility", "ancient", "gnomes" ],
+      "The Hobbit: The Battle of the Five Armies"
+      :
+      [ "corruption", "elves", "dwarves", "orcs", "middle-earth (tolkien)", "hobbit", "dragon", "battle", "unlikely friendship", "epic battle", "sword and sorcery" ],
+      "The Hours"
+      :
+      [ "london england", "suicide", "gay", "poetry", "aids", "drowning", "depression", "home", "way of life", "self-destruction", "province", "literature", "empowerment", "country life", "family's daily life", "sense of life", "homelessness", "leaving one's family", "delusion" ],
+      "The Hunchback of Notre Dame"
+      :
+      [ "paris", "based on novel", "judge", "obsession", "dance", "sword", "mockery", "ugliness", "cathedral", "musical", "fool", "bell", "religion", "orphan", "army captain", "festival", "angry mob", "witch hunt", "15th century" ],
+      "The Hunger Games Catching Fire"
+      :
+      [ "competition", "based on novel", "mentor", "secret", "factory", "television", "propaganda", "future", "dystopia", "alliance", "games", "president", "uprising", "sequel", "murder", "survival", "conspiracy", "rebellion", "blood", "female protagonist", "tournament", "explosion", "danger", "imax", "winner", "based on young adult novel" ],
+      "The Incredibles"
+      :
+      [ "secret identity", "secret", "hero", "island", "wretch", "supernatural powers", "weapon", "lawsuit", "superhero" ],
+      "The Judge"
+      :
+      [ "father son relationship", "judge", "lawyer" ],
+      "The King's Speech"
+      :
+      [ "great britain", "radio", "monarchy", "radio transmission", "royal family", "speech", "marriage", "royalty", "death of father" ],
+      "The Last Dragonslayer"
+      :
+      [ "dragons" ],
+      "The Last Word"
+      :
+      [ "suicide attempt", "vandalism", "friendship", "road trip", "advertising executive", "obituary", "radio dj", "obituary writer", "essay writer" ],
+      "The Lego Batman Movie"
+      :
+      [ "superhero", "based on comic book", "based on toy", "spin off", "super powers", "dead parents", "lego", "batman" ],
+      "The Lorax"
+      :
+      [ "tree", "based on children's book", "walled city", "reforestation", "tree cutting" ],
+      "The Magnificent Seven"
+      :
+      [ "remake" ],
+      "The Marine 5 Battleground"
+      :
+      [ "accion" ],
+      "The Matrix"
+      :
+      [ "saving the world", "artificial intelligence", "man vs machine", "philosophy", "prophecy", "martial arts", "self sacrifice", "fight", "insurgence", "virtual reality", "dystopia", "truth", "cyberpunk", "woman director", "messiah", "gnosticism" ],
+      "The Matrix Reloaded"
+      :
+      [ "saving the world", "artificial intelligence", "man vs machine", "martial arts", "kung fu", "underground world", "dream", "hero", "fight", "computer virus", "key", "future", "plato", "precognition", "rave", "dying and death", "virtual reality", "dystopia", "computer", "faith", "world religion", "truth", "mission", "cyberpunk", "woman director", "gnosticism" ],
+      "The Matrix Revolutions"
+      :
+      [ "saving the world", "artificial intelligence", "man vs machine", "flying", "philosophy", "fortune teller", "kung fu", "underground world", "killer robot", "temple", "subway", "dream", "sun", "hero", "fight", "sunlight", "computer virus", "key", "future", "precognition", "super computer", "machine town", "ying yang", "dying and death", "virtual reality", "dystopia", "computer", "faith", "world religion", "truth", "rescue", "mission", "cyberpunk", "woman director", "yin yang", "gnosticism" ],
+      "The Midwife"
+      :
+      [ ],
+      "The Mummy"
+      :
+      [ "monster", "mummy", "horror" ],
+      "The Muppets"
+      :
+      [ "musical", "the muppets", "robot", "oil tycoon", "studio tour", "duringcreditsstinger" ],
+      "The Prince and the Pauper"
+      :
+      [ "prince", "mickey mouse", "guard", "royalty", "identity swap" ],
+      "The Princess and the Frog"
+      :
+      [ "based on novel", "voodoo", "kiss", "princess", "animation", "cajun", "firefly", "based on fairy tale", "duringcreditsstinger", "big dreams", "frog prince", "charlatan" ],
+      "The Revenant"
+      :
+      [ "father son relationship", "rape", "based on novel", "mountains", "winter", "grizzly bear", "wilderness", "frontier", "revenge", "murder", "native american", "survival", "bear", "snow", "violence", "animal death", "bear attack", "death of son", "based on true events", "fur trapper" ],
+      "The Road Within"
+      :
+      [ "father son relationship", "road trip", "tourette syndrome", "woman director", "cremation" ],
+      "The Rum Diary"
+      :
+      [ "alcohol", "puerto rico", "tv debate", "fire breathing", "vomiting", "cockfight", "rum", "brochure", "tongue", "1960s" ],
+      "The Sea of Trees"
+      :
+      [ "japan", "funeral", "forest", "loss", "cancer", "suicidal", "doctor" ],
+      "The Smurfs 2"
+      :
+      [ "based on cartoon", "animation", "smurf" ],
+      "The Sound of Music"
+      :
+      [ "resistance", "austria", "world war ii", "musical", "music competition", "salzburg", "based on play", "classic", "alps", "governess", "convent", "music contest", "novice", "puppet show", "nun in love", "nazi occupation", "1930s" ],
+      "The Space Between Us"
+      :
+      [ "mars", "space colony", "fish out of water", "teenager", "scientist", "teenage love", "near future", "search for father" ],
+      "The Talented Mr. Ripley"
+      :
+      [ "venice", "italy", "gay", "new york", "lovesickness", "double life", "dual identity", "jealousy", "secret identity", "new love", "homicide", "atlantic ocean", "new identity", "planned murder", "prosecution", "yacht", "ship", "inferiority", "false identity", "beguilement", "rejection", "inferiority complex", "ocean liner", "friendship", "homosexuality", "wealth", "cowardliness", "envy" ],
+      "The Unforgiven"
+      :
+      [ "texas", "farm", "siblings", "frontier", "native american", "racism", "stolen child" ],
+      "The Whole Truth"
+      :
+      [ "murder", "lawyer", "woman director", "patricide" ],
+      "The Wizard of Oz"
+      :
+      [ "witch", "adolescence", "based on novel", "secret identity", "clock", "dream", "lion", "tornado", "scarecrow", "musical", "crow", "kansas", "classic", "imaginary land", "cowardliness", "sepia color" ],
+      "This is Where I Leave You"
+      :
+      [ "based on novel", "funeral", "dysfunctional family", "death of father", "man child", "family", "mourning", "grieving" ],
+      "Thor"
+      :
+      [ "new mexico", "banishment", "shield", "marvel comic", "hammer", "superhero", "based on comic book", "redemption", "norse mythology", "aftercreditsstinger", "marvel cinematic universe", "3d", "asgard", "odin", "heimdall" ],
+      "Thor: The Dark World"
+      :
+      [ "marvel comic", "superhero", "based on comic book", "hostile takeover", "norse mythology", "aftercreditsstinger", "duringcreditsstinger", "marvel cinematic universe", "3d", "asgard" ],
+      "Topkapi"
+      :
+      [ "museum", "smuggling", "caper", "suspense", "theft", "dagger" ],
+      "Toy Story"
+      :
+      [ "jealousy", "toy", "boy", "friendship", "friends", "rivalry", "boy next door", "new toy", "toy comes to life" ],
+      "Toy Story 2"
+      :
+      [ "museum", "prosecution", "identity crisis", "airplane", "flea market", "collector", "teamwork", "friendship", "rescue team", "garage sale", "duringcreditsstinger", "toy comes to life", "personification", "inanimate objects coming to life" ],
+      "Toy Story 3"
+      :
+      [ "hostage", "college", "toy", "barbie", "animation", "escape", "day care", "teddy bear", "duringcreditsstinger", "toy comes to life", "personification", "inanimate objects coming to life", "toy story" ],
+      "Trainwreck"
+      :
+      [ "alcohol", "one-night stand" ],
+      "Trolls"
+      :
+      [ "based on toy", "troll" ],
+      "Two Lovers and a Bear"
+      :
+      [ "small town", "lovers", "bear", "north pole" ],
+      "Underworld: Blood Wars"
+      :
+      [ "martial arts", "sword", "vampire", "ambition", "war", "sequel", "betrayal", "werewolf", "gothic", "uzi", "woman director", "urban gothic" ],
+      "Up"
+      :
+      [ "age difference", "central and south america", "balloon", "animation", "floating in the air", "duringcreditsstinger", "exploring" ],
+      "WALL-E"
+      :
+      [ "romantic comedy" ],
+      "We Are Your Friends"
+      :
+      [ "dj" ],
+      "Welcome to Norway"
+      :
+      [ ],
+      "White House Down"
+      :
+      [ "usa president", "conspiracy", "secret service", "the white house" ],
+      "Who Gets the Dog?"
+      :
+      [ "divorce", "dog", "pets" ],
+      "Why Him?"
+      :
+      [ "daughter", "rivalry", "dad", "father-in-law son-in-law relationship" ],
+      "Winnie the Pooh"
+      :
+      [ "owl", "tiger", "aftercreditsstinger", "duringcreditsstinger" ],
+      "Witness for the Prosecution"
+      :
+      [ "nurse", "alibi", "german", "letter", "widow", "murder", "lawyer", "trial", "cigarette smoking", "courtroom", "murder mystery", "tiki culture" ],
+      "Won't Back Down"
+      :
+      [ "based on true story" ],
+      "World War Z"
+      :
+      [ "dystopia", "apocalypse", "zombies", "nuclear weapons", "multiple perspectives", "zombie apocalypse" ],
+      "Wreck-It Ralph"
+      :
+      [ "support group", "product placement", "bullying", "racing", "arcade", "medal", "self esteem", "curiosity", "precocious child", "aftercreditsstinger", "duringcreditsstinger", "first person shooter", "glitch", "carefree", "video gamer", "q*bert", "interrupted wedding", "social reject" ],
+      "Wuthering Heights"
+      :
+      [ "jealousy", "brother sister relationship", "central and south america", "love of one's life", "from rags to riches" ],
+      "xXx: Return of Xander Cage"
+      :
+      [ "tattoo", "spy", "airplane", "secret agent", "parachute", "swimming pool", "sequel", "extreme sports", "back from the dead", "free fall" ],
+      "Youth in Oregon"
+      :
+      [ "oregon", "cross country", "reason for living", "euthanized" ]
+}
