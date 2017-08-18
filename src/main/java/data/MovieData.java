@@ -1,5 +1,6 @@
 package data;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -8,7 +9,9 @@ import java.util.stream.Collectors;
  * @author jbergeron
  *
  */
-public class MovieData {
+public class MovieData implements Serializable{
+	
+	private static final long serialVersionUID = 1L;
 	
 	final String name;
 	final List<String> tags;

@@ -1,5 +1,6 @@
 package model;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -7,7 +8,9 @@ import java.util.stream.Collectors;
 
 import data.ProcessedMovieData;
 
-public class MovieDocument {
+public class MovieDocument implements Serializable{
+	
+	private static final long serialVersionUID = 1L;
 	
 	final ProcessedMovieData entry;
 	final Map<String, Integer> tf;
