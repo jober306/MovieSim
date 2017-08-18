@@ -2,6 +2,7 @@ package core;
 
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 import comparator.ScoredMovieDocumentComparator;
@@ -31,6 +32,10 @@ public class SimilarMoviesFinder {
 		List<ScoredMovieDocument> unsortedScoredMovies = corpus.getMovies().stream().map(movie -> new ScoredMovieDocument(movie, getScoreFor(movie, currentDocFeatures))).collect(Collectors.toList());
 		unsortedScoredMovies.sort(new ScoredMovieDocumentComparator());
 		return unsortedScoredMovies.subList(0, Math.min(unsortedScoredMovies.size(), n));
+	}
+	
+	public Map<String, List<ScoredMovieDocument>> findAllMoviesTopN(int n){
+		return corpus.getMovies().stream().collect(Collectors.toMap(movie -> movie.getName(), movie -> findTopN(movie, n)));
 	}
 	
 	private double getScoreFor(MovieDocument otherDoc, double[] currentDocFeatures) {
