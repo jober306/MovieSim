@@ -1,4 +1,4 @@
-package data;
+package data.tmdb;
 
 import java.io.File;
 import java.io.IOException;
@@ -17,7 +17,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * @author jbergeron
  *
  */
-public class MovieDataReader {
+public class TMDbDataReader {
 	
 	final public static String MOVIE_ENTRIES_FILE_NAME = "/data/keywords_301.txt"; 
 	
@@ -26,8 +26,8 @@ public class MovieDataReader {
 	 * @return The list of movie entries in the resource file. If the file can't be found or the Json
 	 * is malformed, an empty list is returned.
 	 */
-	public static List<MovieData> read(){
-		List<MovieData> movieEntries = new ArrayList<MovieData>();
+	public static List<TMDbMovieData> read(){
+		List<TMDbMovieData> movieEntries = new ArrayList<TMDbMovieData>();
 		JsonFactory factory = new JsonFactory();
 	    ObjectMapper mapper = new ObjectMapper(factory);
 	    JsonNode rootNode;
@@ -35,7 +35,7 @@ public class MovieDataReader {
 			rootNode = mapper.readTree(getMovieEntriesFile());
 		    Iterator<Map.Entry<String,JsonNode>> fieldsIterator = rootNode.fields();
 		    while (fieldsIterator.hasNext()) {
-	           MovieData entry = extractMovieEntry(fieldsIterator.next());
+	           TMDbMovieData entry = extractMovieEntry(fieldsIterator.next());
 	           movieEntries.add(entry);
 	       }
 		} catch (IOException e) {
@@ -52,7 +52,7 @@ public class MovieDataReader {
 	 * @throws URISyntaxException If the uri representing the movie entries is malformed.
 	 */
 	public static File getMovieEntriesFile() throws URISyntaxException {
-		return new File(MovieDataReader.class.getResource(MOVIE_ENTRIES_FILE_NAME).toURI());
+		return new File(TMDbDataReader.class.getResource(MOVIE_ENTRIES_FILE_NAME).toURI());
 	}
 	
 	private static List<String> extractMovieTags(JsonNode movieTagsNode){
@@ -64,14 +64,14 @@ public class MovieDataReader {
         return movieTags;
 	}
 	
-	private static MovieData extractMovieEntry(Map.Entry<String, JsonNode> field) {
+	private static TMDbMovieData extractMovieEntry(Map.Entry<String, JsonNode> field) {
         String movieName = field.getKey();
         List<String> movieTags = extractMovieTags(field.getValue());
-        return new MovieData(movieName, movieTags);
+        return new TMDbMovieData(movieName, movieTags);
 	}
 	
 	public static void main(String[] args){
-		List<MovieData> entries = MovieDataReader.read();
+		List<TMDbMovieData> entries = TMDbDataReader.read();
 		entries.forEach(System.out::println);
 	}
 }

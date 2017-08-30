@@ -9,7 +9,7 @@ public class TFIDFFeatureExtractor implements FeatureExtractor{
 	public double[] extract(MovieDocument doc, MovieDictionnary dict) {
 		double[] features = new double[dict.getVocabulary().size()];
 		for(String word : doc.getBOW()) {
-			features[dict.getIndex(word)] = doc.getTf(word) * dict.getIdf(word);
+			features[dict.getIndex(word)] = doc.tfOf(word) * dict.getIdf(word);
 		}
 		return features;
 	}

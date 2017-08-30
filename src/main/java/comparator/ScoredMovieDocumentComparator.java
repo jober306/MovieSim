@@ -2,7 +2,7 @@ package comparator;
 
 import java.util.Comparator;
 
-import data.ScoredMovieDocument;
+import model.ScoredMovieDocument;
 
 public class ScoredMovieDocumentComparator implements Comparator<ScoredMovieDocument>{
 	@Override

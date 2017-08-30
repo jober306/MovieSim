@@ -1,10 +1,14 @@
 package core;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
-import data.MovieData;
-import data.MovieDataProcessor;
-import data.MovieDataReader;
+import data.ife.IFEDataReader;
+import data.ife.IFEMovieData;
+import data.tmdb.TMDbDataReader;
+import data.tmdb.TMDbMovieData;
+import data.tmdb.TMDbMovieDataProcessor;
+import edu.stanford.nlp.coref.neural.CategoricalFeatureExtractor;
 import feature.*;
 import model.MovieCorpus;
 import model.MovieDictionnary;
@@ -16,13 +20,29 @@ public class SimilarMoviesFinderDriver {
 	
 	
 	public static void main(String[] args)  {
-		List<MovieData> rawMovieData = MovieDataReader.read();
-		List<MovieDocument> movies = MovieDataProcessor.processToMovieDocument(rawMovieData);
+		testIFE();
+	}
+	
+	public static void testTMDb() {
+		List<TMDbMovieData> rawMovieData = TMDbDataReader.read();
+		List<MovieDocument> movies = TMDbMovieDataProcessor.processToMovieDocument(rawMovieData);
+		List<MovieDocument> moviesAtLeastOne = movies.stream().filter(movie -> movie.getBOW().size() >= 1).collect(Collectors.toList());
+		MovieCorpus corpus = new MovieCorpus(moviesAtLeastOne);
+		MovieDictionnary dict = new MovieDictionnary(corpus);
+		Similarity sim = new CosineSimilarity();
+		FeatureExtractor extractor = new TFIDFFeatureExtractor();
+		SimilarMoviesFinder finder = new SimilarMoviesFinder(corpus, dict, sim, extractor);
+		finder.findNDelegate(10).stream().map(MovieDocument::name).forEach(System.out::println);
+	}
+	
+	public static void testIFE() {
+		List<IFEMovieData> rawMovieData = IFEDataReader.read();
+		List<MovieDocument> movies = rawMovieData.stream().map(MovieDocument::new).collect(Collectors.toList());
 		MovieCorpus corpus = new MovieCorpus(movies);
 		MovieDictionnary dict = new MovieDictionnary(corpus);
 		Similarity sim = new CosineSimilarity();
-		FeatureExtractor extractor = new BinaryFeatureExtractor();
+		FeatureExtractor extractor = new CategoryFeatureExtractor();
 		SimilarMoviesFinder finder = new SimilarMoviesFinder(corpus, dict, sim, extractor);
-		System.out.println(finder.findAllMoviesTopNAsJson(10));
+		finder.findNDelegate(10).stream().map(MovieDocument::name).forEach(System.out::println);
 	}
 }

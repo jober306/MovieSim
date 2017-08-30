@@ -2,46 +2,35 @@ package data;
 
 import java.io.Serializable;
 import java.util.List;
-import java.util.stream.Collectors;
 
-/**
- * Class representing a movie entry. It is essentially a container for the movie name and its tags.
- * @author jbergeron
- *
- */
 public class MovieData implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
-	
 	final String name;
 	final List<String> tags;
+	final List<List<String>> processedTags;
+	final List<Double> categoriesScore;
 	
-	/**
-	 * Constructor of the movie entry class.
-	 * @param name The name of the movie.
-	 * @param tags The associated with the movie.
-	 */
-	public MovieData(String name, List<String> tags) {
+	public MovieData(String name, List<String> tags, List<Double> categoriesScore, List<List<String>> processedTags) {
 		this.name = name;
 		this.tags = tags;
+		this.categoriesScore = categoriesScore;
+		this.processedTags = processedTags;
 	}
 	
-	public String getName() {
+	public String name() {
 		return this.name;
 	}
 	
-	public List<String> getTags(){
+	public List<String> tags(){
 		return this.tags;
 	}
 	
-	@Override
-	public String toString() {
-		StringBuilder sb = new StringBuilder();
-		sb.append("Movie Name: ");
-		sb.append(name);
-		sb.append("\t Movie Tags: [");
-		sb.append(tags.stream().collect(Collectors.joining(", ")));
-		sb.append("]\n");
-		return sb.toString();
+	public List<Double> categoriesScore(){
+		return this.categoriesScore;
+	}
+	
+	public List<List<String>> processedTags(){
+		return this.processedTags;
 	}
 }

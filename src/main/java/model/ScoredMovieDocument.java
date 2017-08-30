@@ -1,8 +1,6 @@
-package data;
+package model;
 
 import java.io.Serializable;
-
-import model.MovieDocument;
 
 public class ScoredMovieDocument implements Serializable{
 	
@@ -29,14 +27,14 @@ public class ScoredMovieDocument implements Serializable{
 	 * @return
 	 */
 	public ScoredMovieDocumentDAO toDAO() {
-		return new ScoredMovieDocumentDAO(doc.getName(), score);
+		return new ScoredMovieDocumentDAO(doc.name(), score);
 	}
 	
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		sb.append("\"");
-		sb.append(getMovieDocument().getName());
+		sb.append(getMovieDocument().name());
 		sb.append("\" : ");
 		sb.append(getScore());
 		return sb.toString();

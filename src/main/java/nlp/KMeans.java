@@ -1,40 +1,46 @@
 package nlp;
 
+import static util.VectorUtil.*;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class KMeans {
 	
-	final static double TOLERANCE = 5E-4;
-	final static int MAX_ITER = 2000;
+	final static double TOLERANCE = 5E-7;
+	final static int MAX_ITER = 1000;
 	
 	public static List<double[]> apply(List<double[]> vectors, int k){
 		List<double[]> seeds = selectRandomSeeds(vectors, k);
 		List<double[]> centroids = new ArrayList<double[]>(seeds);
 		double epsilon = Double.MAX_VALUE;
 		int nIter = 0;
-		while(epsilon > TOLERANCE || nIter >= MAX_ITER) {
+		while(epsilon > TOLERANCE && nIter < MAX_ITER) {
 			List<List<double[]>> Ws = initializeWs(k);
-			for(int n = 0; n < vectors.size(); n++) {
-				int j = findMinCentroid(vectors.get(n), centroids);
-				Ws.get(j).add(vectors.get(n));
-			}
-			List<double[]> updatedCentroids = calculateCentroids(Ws);
+			final List<double[]> finalCentroids = centroids;
+			vectors.stream().forEach(vector -> Ws.get(findNearestVector(vector, finalCentroids)).add(vector));
+			List<double[]> updatedCentroids = calculateCentroids(Ws, vectors);
 			epsilon = calculateEpsilon(centroids, updatedCentroids);
 			centroids = updatedCentroids;
+			nIter++;
 		}
 		return centroids;
 	}
 	
 	private static List<double[]> selectRandomSeeds(List<double[]> vectors, int k){
 		List<double[]> seeds = new ArrayList<double[]>();
-		List<Integer> range = IntStream.range(0, 100).boxed().collect(Collectors.toList());
+		List<Integer> range = IntStream.range(0, vectors.size()).boxed().collect(Collectors.toList());
 		Collections.shuffle(range);
 		range.subList(0, k).forEach(seedIndex -> seeds.add(vectors.get(seedIndex)));
 		return seeds;
+	}
+	
+	private static double[] selectRandomSeed(List<double[]> vectors) {
+		return vectors.get(new Random().nextInt(vectors.size()));
 	}
 	
 	private static List<List<double[]>> initializeWs(int k){
@@ -43,20 +49,13 @@ public class KMeans {
 		return Ws;
 	}
 	
-	private static int findMinCentroid(double[] vector, List<double[]> centroids) {
-		return IntStream.range(0, centroids.size()).reduce((a, b) -> distance(vector, centroids.get(a)) < distance(vector, centroids.get(b)) ? a : b).orElse(-1);
+	private static List<double[]> calculateCentroids(List<List<double[]>> Ws, List<double[]> vectors){
+		return Ws.stream().map(wi -> calculateCentroid(wi, vectors)).collect(Collectors.toList());
 	}
 	
-	private static double distance(double[] v1, double[] v2) {
-		return IntStream.range(0, Math.min(v1.length, v2.length)).mapToDouble(i -> Math.pow(v1[i] - v2[i], 2)).sum();
-	}
-	
-	private static List<double[]> calculateCentroids(List<List<double[]>> Ws){
-		return Ws.stream().map(wi -> calculateCentroid(wi)).collect(Collectors.toList());
-	}
-	
-	private static double[] calculateCentroid(List<double[]> Wi) {
-		return Wi.stream().reduce((arr1, arr2) -> sumArrays(arr1, arr2)).orElse(null);
+	private static double[] calculateCentroid(List<double[]> Wi, List<double[]> vectors) {
+		double[] centroid = Wi.stream().reduce((arr1, arr2) -> sumArrays(arr1, arr2)).orElse(selectRandomSeed(vectors));
+		return centroid;
 	}
 	
 	private static double[] sumArrays(double[] arr1, double[] arr2) {

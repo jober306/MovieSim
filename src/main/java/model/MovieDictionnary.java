@@ -7,8 +7,8 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import data.MovieDataProcessor;
-import data.MovieDataReader;
+import data.tmdb.TMDbDataReader;
+import data.tmdb.TMDbMovieDataProcessor;
 
 public class MovieDictionnary {
 	
@@ -21,10 +21,18 @@ public class MovieDictionnary {
 	
 	public MovieDictionnary(MovieCorpus corpus) {
 		this.corpus = corpus;
-		this.dict = createDict();
-		this.vocabulary = createVocabulary();
-		this.idf = createIdf();
-		this.defaultIdf = calculateDefaultIdf();
+		if(corpus.movies.get(0).tf() != null) {
+			this.dict = createDict();
+			this.vocabulary = createVocabulary();
+			this.idf = createIdf();
+			this.defaultIdf = calculateDefaultIdf();
+		}
+		else {
+			this.dict = null;
+			this.vocabulary = null;
+			this.idf = null;
+			this.defaultIdf = -1.0d;
+		}
 	}
 	
 	public Set<String> getVocabulary(){
@@ -41,7 +49,7 @@ public class MovieDictionnary {
 	
 	private Map<String, Integer> createDict(){
 		Map<String, Integer> dict = new HashMap<String, Integer>();
-		List<String> allWords = corpus.getMovies().stream().map(entry -> entry.getBOW()).flatMap(List::stream).distinct().collect(Collectors.toList());
+		List<String> allWords = corpus.movies().stream().map(entry -> entry.getBOW()).flatMap(List::stream).distinct().collect(Collectors.toList());
 		IntStream.range(0, allWords.size()).forEach(index -> dict.put(allWords.get(index), index));
 		return dict;
 	}
@@ -55,7 +63,7 @@ public class MovieDictionnary {
 		Set<String> vocabulary = getVocabulary();
 		int vocabularySize = vocabulary.size();
 		for(String word : vocabulary) {
-			int d = corpus.getMovies().stream().map(entry -> entry.getBOW()).filter(bow -> bow.contains(word)).collect(Collectors.toSet()).size();
+			int d = corpus.movies().stream().map(entry -> entry.getBOW()).filter(bow -> bow.contains(word)).collect(Collectors.toSet()).size();
 			double idfScore = Math.log((double)vocabularySize / (double)d); 
 			idf.put(word, idfScore);
 		}
@@ -67,7 +75,7 @@ public class MovieDictionnary {
 	}
 	
 	public static void main(String[] args) {
-		MovieCorpus corpus = new MovieCorpus(MovieDataProcessor.processToMovieDocument(MovieDataReader.read()));
+		MovieCorpus corpus = new MovieCorpus(TMDbMovieDataProcessor.processToMovieDocument(TMDbDataReader.read()));
 		MovieDictionnary dict = new MovieDictionnary(corpus);
 	}
 }
