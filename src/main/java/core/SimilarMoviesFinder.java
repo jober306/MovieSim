@@ -65,6 +65,21 @@ public class SimilarMoviesFinder {
 		return delegates;
 	}
 	
+	public List<MovieDocument> findNDelegate(int n, List<double[]> seeds){
+		List<MovieDocument> delegates = new ArrayList<MovieDocument>();
+		List<MovieDocument> movies = corpus.movies();
+		List<double[]> vectors = corpus.movies().stream().map(movie -> extractor.extract(movie, dict)).collect(toList());
+		List<double[]> centroids = KMeans.apply(vectors, seeds);
+		for(double[] centroid : centroids) {
+			int index = findNearestVector(centroid, vectors);
+			delegates.add(movies.get(index));
+			System.out.println(movies.get(index));
+			vectors.remove(index);
+			movies.remove(index);
+		}
+		return delegates;
+	}
+	
 	public String findAllMoviesTopNAsJson(int n) {
 		return getObjAsString(mapMoviesTopNToDAO(findAllMoviesTopN(n)));
 	}

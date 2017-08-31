@@ -18,6 +18,7 @@ public class MovieCorpus {
 	}
 	
 	public MovieDocument getMovie(String name) {
+		System.out.println(name);
 		return movies.stream().filter(movie -> movie.name().equals(name)).collect(Collectors.toList()).get(0);
 	}
 }

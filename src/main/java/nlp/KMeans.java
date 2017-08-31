@@ -14,8 +14,8 @@ public class KMeans {
 	final static double TOLERANCE = 5E-7;
 	final static int MAX_ITER = 1000;
 	
-	public static List<double[]> apply(List<double[]> vectors, int k){
-		List<double[]> seeds = selectRandomSeeds(vectors, k);
+	public static List<double[]> apply(List<double[]> vectors, List<double[]> seeds){
+		int k = seeds.size();
 		List<double[]> centroids = new ArrayList<double[]>(seeds);
 		double epsilon = Double.MAX_VALUE;
 		int nIter = 0;
@@ -29,6 +29,11 @@ public class KMeans {
 			nIter++;
 		}
 		return centroids;
+	}
+	
+	public static List<double[]> apply(List<double[]> vectors, int k){
+		List<double[]> seeds = selectRandomSeeds(vectors, k);
+		return apply(vectors, seeds);
 	}
 	
 	private static List<double[]> selectRandomSeeds(List<double[]> vectors, int k){
